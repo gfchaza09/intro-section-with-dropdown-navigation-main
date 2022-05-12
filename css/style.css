@@ -76,8 +76,8 @@ body {
     transform: translateY(0%);
 }
 
-.header__nav--main .header__nav--submenu li:last-child {
-    margin-bottom: 0rem;
+.header__nav--submenu li {
+    margin-bottom: 1rem;
 }
 
 .header__nav--submenu img {
@@ -243,6 +243,10 @@ body {
 
     .header__nav--main li {
         margin-bottom: 1.5rem;
+    }
+
+    .header__nav--main .header__nav--submenu li:last-child {
+        margin-bottom: 0rem;
     }
 
     .nav__link--submenu img {
